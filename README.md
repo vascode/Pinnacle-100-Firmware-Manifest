@@ -1,0 +1,1 @@
+pinnacle_100_firmware_public_manifest
