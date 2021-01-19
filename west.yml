@@ -20,11 +20,11 @@ manifest:
       remote: JsmnRepo
     - name: memfault-firmware-sdk
       path: modules/memfault-firmware-sdk
-      revision: ce4bfd299f7dcd976f802ada86a8707cd211ff01
+      revision: 3bb88f31fc953f3f13ac4461fe413ff6ff2288a5
       remote: LairdCP     
     - name: Pinnacle-100-firmware
       path: pinnacle_100_firmware
-      revision: 90a50f7705cfa845623f9f767c2266ce7a8163a4
+      revision: c7cd9fbf0f0fe1af96932b4aa72c87ec4738b12a
       remote: LairdCP
     - name: sdk-nrf
       path: nrf
@@ -42,7 +42,7 @@ manifest:
       remote: LairdCP
     - name: zephyr_lib
       path: modules/zephyr_lib
-      revision: 7cf14ab2433404c80935004cf52ae8cd2ab7c656
+      revision: b5d9a1983261aca7a50eb659d757aa12529bcda8
       remote: LairdCP
 
   self:
