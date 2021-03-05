@@ -26,11 +26,8 @@ Once `west` is installed, clone this repository using `west init` and `west upda
 # Checkout the latest manifest on main
 west init -m https://github.com/LairdCP/Pinnacle-100-Firmware.git
 
-# OR checkout v3.0.1 tag
-west init -m https://github.com/LairdCP/Pinnacle-100-Firmware.git --mr v3.0.1
-
-# OR checkout GA3 branch
-west init -m https://github.com/LairdCP/Pinnacle-100-Firmware.git --mr GA3
+# OR checkout v4.0.0 tag
+west init -m https://github.com/LairdCP/Pinnacle-100-Firmware.git --mr v4.0.0
 
 # Now, pull all the source described in the manifest
 west update
@@ -43,10 +40,10 @@ If this is your first time working with a Zephyr project on your computer you sh
 The firmware uses zephyr 2.4.x, so GCC 9 is recommended.
 [GNU Arm Embedded Toolchain: 9-2020-q2-update](https://developer.arm.com/tools-and-software/open-source-software/developer-tools/gnu-toolchain/gnu-rm/downloads) is recommended.
 
-See here to [setup the GNU ARM Embedded tools](https://docs.zephyrproject.org/2.3.0/getting_started/toolchain_3rd_party_x_compilers.html#gnu-arm-embedded)
+See here to [setup the GNU ARM Embedded tools](https://docs.zephyrproject.org/2.4.0/getting_started/toolchain_3rd_party_x_compilers.html#gnu-arm-embedded)
 
 If using Linux, v0.11.4 of the Zephyr SDK is recommended.
 
 ## Building the Firmware
 
-See [here for build commands](https://github.com/LairdCP/Pinnacle-100-Firmware.git/blob/main/docs/readme_ltem_aws.md#building-the-firmware).
+See [here for build commands](https://github.com/LairdCP/Pinnacle-100-Firmware/blob/main/docs/readme_ltem_aws.md#building-the-firmware).
