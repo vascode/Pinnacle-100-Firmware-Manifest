@@ -24,7 +24,7 @@ manifest:
       remote: LairdCP
     - name: Pinnacle-100-firmware
       path: pinnacle_100_firmware
-      revision: 530e9710b682f733fbbb0c34858340c51301be34
+      revision: ca0157c1f1849bd40888ff23a7e3a6749c46ebb9
       remote: LairdCP
     - name: sdk-nrf
       path: nrf
