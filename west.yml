@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/LairdCP
     - name: ncs
       url-base: https://github.com/nrfconnect
+    - name: vascode
+      url-base: https://github.com/vascode
 
   # Please add items below based on alphabetical order.
   # These dependencies may need updating if new features are added to the firmware.
@@ -24,8 +26,8 @@ manifest:
       remote: LairdCP
     - name: Pinnacle-100-firmware
       path: pinnacle_100_firmware
-      revision: ca0157c1f1849bd40888ff23a7e3a6749c46ebb9
-      remote: LairdCP
+      revision: f569a0d00f385628a3c88a7dce67ba362b2dec35
+      remote: vascode
     - name: sdk-nrf
       path: nrf
       revision: a1e9002a192f594a19b0f434c4f3b0894e560288
