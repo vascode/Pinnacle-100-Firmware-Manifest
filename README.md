@@ -2,7 +2,7 @@
 
 ## Using the Firmware
 
-See the user guide for the firmware [here](https://github.com/LairdCP/Pinnacle-100-Firmware/blob/main/README.md)
+This firmware provides a template for using custom sensors with MG100. See more information [here](https://github.com/vascode/Pinnacle-100-Firmware/tree/custom_template)
 
 ## Cloning Firmware
 
@@ -24,7 +24,7 @@ Once `west` is installed, clone this repository using `west init` and `west upda
 
 ```
 # Checkout the latest manifest on main
-west init -m https://github.com/LairdCP/Pinnacle-100-Firmware-Manifest.git --manifest-rev main
+west init -m https://github.com/vascode/Pinnacle-100-Firmware-Manifest/tree/custom_template.git --manifest-rev main
 
 # Now, pull all the source described in the manifest
 west update
@@ -43,4 +43,4 @@ If using Linux, v0.11.4 of the Zephyr SDK is recommended.
 
 ## Building the Firmware
 
-See [here for build commands](https://github.com/LairdCP/Pinnacle-100-Firmware/blob/main/docs/readme_ltem_aws.md#building-the-firmware).
+See [here for build commands](https://github.com/vascode/Pinnacle-100-Firmware/blob/custom_template/docs/firmware_update.md#building-the-firmware).
