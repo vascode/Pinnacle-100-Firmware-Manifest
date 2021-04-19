@@ -24,7 +24,7 @@ Once `west` is installed, clone this repository using `west init` and `west upda
 
 ```
 # Checkout the latest manifest on main
-west init -m https://github.com/vascode/Pinnacle-100-Firmware-Manifest/tree/custom_template.git --manifest-rev main
+west init -m https://github.com/vascode/Pinnacle-100-Firmware-Manifest.git --manifest-rev custom_template
 
 # Now, pull all the source described in the manifest
 west update
